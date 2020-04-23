@@ -7,9 +7,7 @@ self.addEventListener('install', function(event) {
           '/index.html',
           '/manifest.json',
           '/src/css/app.css',
-          '/src/js/app.js',
-          '/src/images/icons/icon-192x192.png',
-          '/src/images/icons/icon-512x512.png'
+          '/src/js/app.js'         
           ])
       })
   );
