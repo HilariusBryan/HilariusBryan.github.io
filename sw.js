@@ -7,8 +7,8 @@ self.addEventListener('install', function(event) {
           '/index.html',
           '/manifest.json',
           '/src/css/app.css',
-          '/src/js/app.js'         
-          ])
+          '/src/js/app.js',
+         ])
       })
   );
   return self.clients.claim();
